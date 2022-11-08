@@ -271,15 +271,19 @@ color: #333;
     height: 100%;
     background: #003147;
 }
-@media (max-width : 1000px)
+@media (max-width : 1000px) 
 {
     .container
     {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
     }
+    .contactInfo .ul
+    {
+        grid-template-columns:repeat(2,1fr);
+    }
 }
-@media (max-width : 700px)
+@media only screen and (max-width: 700px)
 {
     .about .box
     {
@@ -290,5 +294,11 @@ color: #333;
         max-width: none;
         max-width: none;
         margin-bottom: 5px
+    }
+    .about_tools .box {
+         grid-template-columns: 1fr;
+    }
+    .about_know .box {
+        grid-template-columns: 1fr;
     }
 }
