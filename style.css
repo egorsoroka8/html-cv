@@ -279,7 +279,7 @@ color: #333;
         grid-template-columns: repeat(1,1fr);
     }
 }
-@media (max-width : 600px)
+@media (max-width : 700px)
 {
     .about .box
     {
@@ -287,6 +287,8 @@ color: #333;
     }
     .about .box .year_company
     {
-        margin-bottom: 5px;
+        max-width: none;
+        max-width: none;
+        margin-bottom: 5px
     }
 }
